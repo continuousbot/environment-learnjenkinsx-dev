@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: ReleaseJen
-  repo: spring-boot-gradle
-  url: https://github.com/ReleaseJen/spring-boot-gradle.git
+  repo: express-hello
+  url: https://github.com/ReleaseJen/express-hello.git
   version: ""
   versionURL: ""
