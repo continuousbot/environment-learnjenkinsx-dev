@@ -1,0 +1,10 @@
+adminUser:
+  password: local:learnjenkinsx/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: piyushmuk7@gmail.com
+  token: local:learnjenkinsx/pipelineUser:token
+  username: continuousbot
+prow:
+  hmacToken: local:learnjenkinsx/prow:hmacToken
