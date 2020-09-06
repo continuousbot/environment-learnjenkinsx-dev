@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ReleaseJen
+    provider: github
+    repository: spring-boot-gradle
+  name: releasejen-spring-boot-gradle
+spec:
+  description: Imported application for ReleaseJen/spring-boot-gradle
+  httpCloneURL: https://github.com/ReleaseJen/spring-boot-gradle.git
+  org: ReleaseJen
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: spring-boot-gradle
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ReleaseJen/spring-boot-gradle.git
